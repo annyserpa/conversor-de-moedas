@@ -28,7 +28,7 @@ const convertValues = () => {
         ).format(inputReais / euro);
     }
     else {
-        currencyValueText.innerHTML = (inputReais / bitcoin).toFixed(2)
+        currencyValueText.innerHTML = (inputReais / bitcoin).toFixed(1)
         }
 }
 
